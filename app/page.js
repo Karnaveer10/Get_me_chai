@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col items-center h-full">
         <div className="first w-2/3 h-1/3 flex flex-col gap-5 items-center justify-center mt-7 p-4">
           <div className="flex items-center justify-center gap-5  p-2">
-            <img src="/tea.gif" width={60} alt="Tea" />
+            <Image src="/tea.gif" width={60} height={30} alt="Tea" />
             <span className="self-center text-5xl font-bold whitespace-nowrap font-semibold text-blue-950">
               Buy Me a Chai!
             </span>
@@ -34,17 +34,17 @@ export default function Home() {
           <h2 className="font-bold text-2xl text-blue-950">Your fans can buy u a chai</h2>
           <div className="flex justify-center items-center gap-36">
             <div className="list flex flex-col items-center justify-center gap-1 text-blue-950 font-semibold" >
-              <img src="man.gif" alt="" width={100} className="bg-red-500 rounded-full p-3" />
+              <Image src="/man.gif" alt="" width={100} height={100} className="bg-red-500 rounded-full p-3" />
               <h3>Fans want to help</h3>
               <h3>Your fans are available for your help</h3>
             </div>
             <div className="list flex flex-col items-center justify-center gap-1 text-blue-950 font-semibold" >
-              <img src="coin.gif" alt="" width={100} className="bg-red-500 rounded-full p-3" />
+              <Image src="/coin.gif" alt="" width={100} height ={100} className="bg-red-500 rounded-full p-3" />
               <h3>Fans want to help</h3>
               <h3>Your fans are available for your help</h3>
             </div>
             <div className="list flex flex-col items-center justify-center gap-1 text-blue-950 font-semibold" >
-              <img src="group.gif" alt="" width={100} className="bg-red-500 rounded-full p-3" />
+              <Image src="/group.gif" alt="" width={100} height={100} className="bg-red-500 rounded-full p-3" />
               <h3>Fans want to help</h3>
               <h3>Your fans are available for your help</h3>
             </div>

@@ -4,6 +4,7 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/navigation';
 import Link from 'next/link'
 import { useEffect } from 'react';
+import Image from 'next/image';
 const Navbar = () => {
     const router = useRouter();
     const { data: session, status } = useSession()
@@ -16,7 +17,7 @@ const Navbar = () => {
             <nav className="bg-orange-300 w-full ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <div className='flex items-center space-x-2 rtl:space-x-reverse'>
-                        <img src="tea.gif" width={30} alt="" />
+                        <Image src="/tea.gif" width={30} height={30} alt="" />
                         <span className="self-center text-2xl font-bold whitespace-nowrap text-blue-950">Get Me a Chai!</span>
                     </div>
                     {session && <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-3">

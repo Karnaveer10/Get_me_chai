@@ -2,3 +2,9 @@
 const nextConfig = {};
 
 export default nextConfig;
+module.exports = {
+  images: {
+    domains: ['c10.patreonusercontent.com', 'www.svgrepo.com',
+      'upload.wikimedia.org'],
+  },
+};
