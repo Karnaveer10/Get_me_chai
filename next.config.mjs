@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-export default nextConfig;
-module.exports = {
+export default {
   images: {
-    domains: ['c10.patreonusercontent.com', 'www.svgrepo.com',
-      'upload.wikimedia.org'],
+    domains: ['c10.patreonusercontent.com', 'www.svgrepo.com', 'upload.wikimedia.org'],
   },
 };
